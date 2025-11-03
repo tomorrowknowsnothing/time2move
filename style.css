@@ -4,3 +4,7 @@ body {
   padding: 25px;
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
+ul {
+  color: blue;
+}
