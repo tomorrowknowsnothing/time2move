@@ -1,5 +1,4 @@
-<!-- Styles -->
-  <style>
+
     :root{
       bg:#071015;
       panel:#0b1620;
@@ -19,8 +18,8 @@
                   radial-gradient(900px 500px at 90% 90%, rgba(57,255,20,0.02), transparent 5%),
                   var(--bg);
       color:#dbe7e8;
-      webkit-font-smoothing:antialiased;
-      moz-osx-font-smoothing:grayscale;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
       padding:28px;
       display:flex;
       align-items:center;
@@ -189,4 +188,5 @@
       .sidebar{ order:2; min-height:220px }
       .panel{ order:1; min-height:360px }
     }
-  </style>
+
+  
