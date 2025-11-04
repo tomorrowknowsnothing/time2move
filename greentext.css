@@ -10,8 +10,6 @@ root{
 
 /* body */
 body {
-  background: #033;
-  color: #fff;
   padding: 25px;
   font-family: "Lucida Console", "Courier New", "monospace";
 }
