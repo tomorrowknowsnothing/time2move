@@ -97,7 +97,7 @@
           area.appendChild(span);
           const prompt = document.createElement('span');
           prompt.className='prompt';
-          prompt.textContent='[root@node ~]$ ';
+          prompt.textContent='[admin]$ ';
           span.appendChild(prompt);
           const out = document.createElement('span');
           out.className='out';
