@@ -1,8 +1,5 @@
 div {
-  position: static;
-  width: 83%;
-  height: 175px;
-  margin: 7% auto;
+  position: top, right;
 }
 
 h1 {
