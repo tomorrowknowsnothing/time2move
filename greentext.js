@@ -1,5 +1,4 @@
-<!-- Script -->
-  <script>
+
     // --- UPTIME ---
     (function(){
       const el = document.getElementById('uptime');
@@ -126,4 +125,4 @@
         appendLine(text + " (" + now + ")");
       };
     })();
-  </script>
+
