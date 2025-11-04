@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>greentext</title>
   <style>
-body { background: black; color: lime; font-family: monospace; }
+body { background: black; color: lime; font-family: Lucida Console; }
 </style>
   <link rel="stylesheet" href="greentext.css">
 <script src="greentext.js" defer></script>
@@ -15,13 +15,12 @@ body { background: black; color: lime; font-family: monospace; }
     <aside class="sidebar" aria-hidden="false">
       <div class="logo">
         <div class="dot" aria-hidden="true"></div>
-        <h1><a href="index.html">root@node</a></h1>
+        <h1><a href="index.html">Index</a></h1>
       </div>
 
      
-
       <div style="margin-top:auto; font-size:13px; color:var(--muted);">
-        <div style="margin-bottom:6px">Quick actions</div>
+        <div style="margin-bottom:6px">Do it ?</div>
         <div style="display:flex; gap:8px;">
           <button onclick="fakeAction('Scanning...')">scan</button>
           <button onclick="fakeAction('Injecting coffee...')">brew</button>
@@ -40,13 +39,13 @@ body { background: black; color: lime; font-family: monospace; }
             <span class="btn-dot dot-yellow"></span>
             <span class="btn-dot dot-green"></span>
           </div>
-          <div class="title">~ /projects/pwnboard <span style="color:var(--muted); font-family:system-ui; font-weight:400; margin-left:8px">— live</span></div>
+          <div class="title">coffee.os<span style="color:var(--muted); font-family:Lucida Console; font-weight:400; margin-left:8px">— live</span></div>
         </div>
 
         <div class="console" id="console" role="log" aria-live="polite">
           <div class="line"><span class="prompt">[root@node ~]$</span> <span class="out">Initialising...</span></div>
           <div class="line" id="typedArea"></div>
-          <div class="hint">Tip: Klick auf "scan" oder "brew" in der linken Leiste.</div>
+          
         </div>
       </div>
     </section>
