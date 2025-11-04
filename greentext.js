@@ -60,16 +60,14 @@
     // --- TYPING EFFECT / console logging ---
     (function(){
       const lines = [
-        "[root@node ~]$ sudo nmap -sS 192.168.0.0/24",
-        "Starting Nmap 7.80 ( https://nmap.org ) at 2025-11-04 12:22 CET",
-        "Nmap scan report for 192.168.0.1",
-        "Host is up (0.00021s latency).",
-        "PORT     STATE SERVICE",
-        "22/tcp   open  ssh",
-        "80/tcp   open  http",
-        "443/tcp  open  https",
-        "[root@node ~]$ cat /etc/flag.txt",
-        "FLAG{n0t_really_a_flag_but_c00l}",
+        "[admin]$ sudo open root/coffee.os",
+        "starting coffee.os 7.80 at 2025-11-04 12:22 CET",
+        "preheating the machine",
+        "boiling water",
+        "grind beans",
+        "tampering",
+        "water is boiling",
+        "machine is ready",
       ];
 
       const area = document.getElementById('typedArea');
