@@ -1,73 +1,47 @@
-/* root */
-root{
-    bg:#071015;
-    panel:#0b1620;
-    accent:#39ff14; /* neon green */
-    muted:#6b7680;
-    glass: rgba(255,255,255,0.03);
-    mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+<!-- Styles -->
+  <style>
+    :root{
+      --bg:#071015;
+      --panel:#0b1620;
+      --accent:#39ff14; /* neon green */
+      --muted:#6b7680;
+      --glass: rgba(255,255,255,0.03);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
     }
-/* Reset-ish */
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%}
 
-/* body */
-body {
-font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, var(--mono);
-background: radial-gradient(1200px 600px at 10% 10%, rgba(57,255,20,0.02), transparent 5%),
-            radial-gradient(900px 500px at 90% 90%, rgba(57,255,20,0.02), transparent 5%),
-            var(--bg);
-color:#dbe7e8;
-webkit-font-smoothing:antialiased;
-moz-osx-font-smoothing:grayscale;
-padding:28px;
-display:flex;
-align-items:center;
-justify-content:center;
-gap:24px;
-}
+    /* Reset-ish */
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%}
 
+    body{
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, var(--mono);
+      background: radial-gradient(1200px 600px at 10% 10%, rgba(57,255,20,0.02), transparent 5%),
+                  radial-gradient(900px 500px at 90% 90%, rgba(57,255,20,0.02), transparent 5%),
+                  var(--bg);
+      color:#dbe7e8;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:28px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:24px;
+    }
 
-
-body {
-  padding: 25px;
-  font-family: "Lucida Console", "Courier New", "monospace";
-}
-
-/* List */
-ul {
-  color: orange;
-}
-
-/* unvisited link */
-a:link {
-  color: lime;
-}
-
-/* visited link */
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: orange;
-}
-
-.frame{
-width:980px;
-max-width:96vw;
-min-height:560px;
-display:grid;
-grid-template-columns: 360px 1fr;
-gap:20px;
-background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-border-radius:12px;
-padding:18px;
-box-shadow: 0 10px 40px rgba(2,6,10,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
-border:1px solid rgba(57,255,20,0.06);
-overflow:hidden;
-}
+    .frame{
+      width:980px;
+      max-width:96vw;
+      min-height:560px;
+      display:grid;
+      grid-template-columns: 360px 1fr;
+      gap:20px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;
+      padding:18px;
+      box-shadow: 0 10px 40px rgba(2,6,10,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
+      border:1px solid rgba(57,255,20,0.06);
+      overflow:hidden;
+    }
 
     /* Left sidebar - terminal-ish */
     .sidebar{
@@ -215,3 +189,4 @@ overflow:hidden;
       .sidebar{ order:2; min-height:220px }
       .panel{ order:1; min-height:360px }
     }
+  </style>
