@@ -19,7 +19,6 @@ body {
       display:grid;
       grid-template-columns: 360px 1fr;
       gap:20px;
-      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
       border-radius:12px;
       padding:18px;
       box-shadow: 0 10px 40px rgba(2,6,10,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
