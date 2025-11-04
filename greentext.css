@@ -1,0 +1,27 @@
+/* body */
+body {
+  background: #033;
+  color: #fff;
+  padding: 25px;
+  font-family: "Lucida Console", "Courier New", "monospace";
+}
+
+/* List */
+ul {
+  color: orange;
+}
+
+/* unvisited link */
+a:link {
+  color: lime;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+}
