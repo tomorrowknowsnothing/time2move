@@ -60,7 +60,7 @@
     // --- TYPING EFFECT / console logging ---
     (function(){
       const lines = [
-        "[admin]$ sudo open root/coffee.os",
+        "sudo open root/coffee.os",
         "starting coffee.os 7.80 at 2025-11-04 12:22 CET",
         "preheating the machine",
         "boiling water",
@@ -76,7 +76,7 @@
       function appendLine(txt){
         const div = document.createElement('div');
         div.className = 'line';
-        div.innerHTML = '<span class="prompt">[root@node ~]$</span> <span class="out">'+txt+'</span>';
+        div.innerHTML = '<span class="prompt">[admin]$</span> <span class="out">'+txt+'</span>';
         area.appendChild(div);
         consoleEl.scrollTop = consoleEl.scrollHeight;
       }
