@@ -7,8 +7,28 @@ root{
     glass: rgba(255,255,255,0.03);
     mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
     }
+/* Reset-ish */
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
 
 /* body */
+body {
+font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, var(--mono);
+background: radial-gradient(1200px 600px at 10% 10%, rgba(57,255,20,0.02), transparent 5%),
+            radial-gradient(900px 500px at 90% 90%, rgba(57,255,20,0.02), transparent 5%),
+            var(--bg);
+color:#dbe7e8;
+webkit-font-smoothing:antialiased;
+moz-osx-font-smoothing:grayscale;
+padding:28px;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:24px;
+}
+
+
+
 body {
   padding: 25px;
   font-family: "Lucida Console", "Courier New", "monospace";
