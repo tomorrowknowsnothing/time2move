@@ -173,4 +173,12 @@ body {
       .panel{ order:1; min-height:360px }
     }
 
-  
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+}
