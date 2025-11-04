@@ -1,3 +1,10 @@
+div {
+  position: relative;
+  width: 83%;
+  height: 175px;
+  margin: 7% auto;
+}
+
 h1 {
   position: absolute;
   width: 100%;
