@@ -1,3 +1,13 @@
+/* root */
+root{
+    bg:#071015;
+    panel:#0b1620;
+    accent:#39ff14; /* neon green */
+    muted:#6b7680;
+    glass: rgba(255,255,255,0.03);
+    mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+    }
+
 /* body */
 body {
   background: #033;
