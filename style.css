@@ -11,9 +11,11 @@ ul {
   color: orange;
 }
 
-/* unvisited link */
-a:link {
-  color: lime;
+/* plain link */
+.plain-link {
+  color: inherit;          /* gleiche Textfarbe wie der umgebende Text */
+  text-decoration: none;   /* entfernt die Unterstreichung */
+  cursor: pointer;         /* zeigt trotzdem die Hand beim Darüberfahren */
 }
 
 /* visited link */
