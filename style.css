@@ -17,6 +17,10 @@ ul {
   text-decoration: none;   /* entfernt die Unterstreichung */
   cursor: pointer;         /* zeigt trotzdem die Hand beim Darüberfahren */
 }
+/* link*/
+a:link {
+  background-color: white;
+}
 
 /* visited link */
 a:visited {
