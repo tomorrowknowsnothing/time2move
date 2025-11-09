@@ -52,6 +52,7 @@ a:hover {
   color: white;
   text-decoration: none;
 }
+
 .codecademy a:hover {
   text-decoration: underline;
   color: orange;
