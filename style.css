@@ -44,21 +44,7 @@ a:hover {
   color: Aquamarine;
 }
 
-.fullstack {
-  color: orange;
-}
-
-.codecademy a {
-  color: white;
-  text-decoration: none;
-}
-
-.codecademy a:hover {
-  text-decoration: underline;
-  color: orange;
-}
-
-.watchmaker {
+.highlight {
   color: orange;
 }
 
