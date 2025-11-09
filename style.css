@@ -22,16 +22,16 @@ ul {
   color: orange;
 }
 
+/* link*/
+a:link {
+  color: LawnGreen;
+}
+
 /* plain link */
 .plain-link {
   color: inherit;          /* gleiche Textfarbe wie der umgebende Text */
   text-decoration: none;   /* entfernt die Unterstreichung */
   cursor: pointer;         /* zeigt trotzdem die Hand beim Darüberfahren */
-}
-
-/* link*/
-a:link {
-  color: LawnGreen;
 }
 
 /* visited link */
@@ -41,7 +41,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: orange;
+  color: LawnGreen;
 }
 
 .fullstack {
