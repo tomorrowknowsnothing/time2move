@@ -43,7 +43,7 @@ function startFlipboardEffect(text, span) {
     iteration++;
 
     if (iteration < letters.length) {
-      setTimeout(animate, 125);
+      setTimeout(animate, 250);
     }
   }
 
