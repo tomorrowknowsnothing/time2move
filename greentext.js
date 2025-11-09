@@ -12,51 +12,7 @@
       setInterval(()=> el.textContent = fmt(Date.now()-start), 1000);
     })();
 
-    // --- MATRIX RAIN (canvas) ---
-    (function(){
-      const canvas = document.getElementById('matrix');
-      const ctx = canvas.getContext('2d');
-      let cols, rows, fontSize, drops;
-
-      function resize(){
-        canvas.width = canvas.clientWidth;
-        canvas.height = canvas.clientHeight;
-        fontSize = Math.max(10, Math.floor(canvas.width / 120)); // adapt
-        cols = Math.floor(canvas.width / fontSize);
-        rows = Math.floor(canvas.height / fontSize);
-        drops = Array.from({length:cols}).map(() => Math.floor(Math.random()*rows));
-      }
-      function randChar(){
-        // mix of binary and hex-like chars
-        const pool = "01<>[]{}()\\/|=+-_*~:;abcdefghijklmnopqrstuvwxyz0123456789";
-        return pool.charAt(Math.floor(Math.random()*pool.length));
-      }
-
-      function draw(){
-        ctx.fillStyle = 'rgba(7,16,21,0.08)';
-        ctx.fillRect(0,0,canvas.width,canvas.height);
-        ctx.font = fontSize + "px " + "monospace";
-        for(let i=0;i<cols;i++){
-          const text = randChar();
-          const x = i*fontSize;
-          const y = drops[i]*fontSize;
-          ctx.fillStyle = i%8===0 ? 'rgba(57,255,20,0.24)' : 'rgba(57,255,20,0.12)';
-          ctx.fillText(text, x, y);
-          if(y > canvas.height && Math.random() > 0.975) drops[i]=0;
-          drops[i]++;
-        }
-      }
-
-      function loop(){
-        draw();
-        requestAnimationFrame(loop);
-      }
-
-      window.addEventListener('resize', resize);
-      resize();
-      loop();
-    })();
-
+    
     // --- TYPING EFFECT / console logging ---
     (function(){
       const lines = [
