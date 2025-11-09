@@ -29,7 +29,7 @@ a:link {
 
 /* plain link */
 .plain-link {
-  color: inherit;          /* gleiche Textfarbe wie der umgebende Text */
+  color: white;          /* gleiche Textfarbe wie der umgebende Text */
   text-decoration: none;   /* entfernt die Unterstreichung */
   cursor: pointer;         /* zeigt trotzdem die Hand beim Darüberfahren */
 }
