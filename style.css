@@ -63,10 +63,5 @@ a:hover {
 }
 
 details {
-  background-color: rgba(52, 152, 219, 0.6); /* blauer Hintergrund mit 60 % Deckkraft */
-  color: white;
-  padding: 1em;
-  border-radius: 8px;
-  opacity: 0.8; /* alles leicht transparent */
-  width: fit-content;
+  opacity: 0.6;
 }
