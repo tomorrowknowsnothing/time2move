@@ -58,7 +58,7 @@ body {
       font-family: var(--mono);
       font-size:18px;
       letter-spacing:0.6px;
-      color:var(--accent);
+      color: orange;
     }
 
     .meta {
@@ -173,9 +173,6 @@ body {
       .panel{ order:1; min-height:360px }
     }
 
-h1 {
-  color: orange;
-}
 
 /* link*/
 a:link {
