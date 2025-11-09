@@ -41,11 +41,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: LawnGreen;
-}
-
-.fullstack {
-  color: orange;
+  color: Aquamarine;
 }
 
 .codecademy a {
@@ -55,9 +51,9 @@ a:hover {
 
 .codecademy a:hover {
   text-decoration: underline;
-  color: orange;
+  color: Aquamarine;
 }
 
-.watchmaker {
+.highlight {
   color: orange;
 }
