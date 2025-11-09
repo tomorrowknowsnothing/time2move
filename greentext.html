@@ -15,7 +15,13 @@
     <aside class="sidebar" aria-hidden="false">
       <div class="logo">
         <div class="dot" aria-hidden="true"></div>
-        <h1>01189998819991197253</a></h1>
+        <h1>
+          <span id="flipboard"></span>
+          <script type="module">import { initFlipboardEffect } 
+          from './flipboard-effect.js';
+          initFlipboardEffect('01189998819991197253');
+          </script>
+        </h1>
       </div>
 
        <div class="meta">Status: <strong style="margin-left:8px;color:var(--accent)">CONNECTED</strong></div>
