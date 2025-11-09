@@ -173,12 +173,25 @@ body {
       .panel{ order:1; min-height:360px }
     }
 
+
+/* link*/
+a:link {
+  color: LawnGreen;
+}
+
+/* plain link */
+.plain-link {
+  color: inherit;          /* gleiche Textfarbe wie der umgebende Text */
+  text-decoration: none;   /* entfernt die Unterstreichung */
+  cursor: pointer;         /* zeigt trotzdem die Hand beim Darüberfahren */
+}
+
 /* visited link */
 a:visited {
-  color: white;
+  color: MediumSpringGreen;
 }
 
 /* mouse over link */
 a:hover {
-  color: orange;
+  color: LawnGreen;
 }
