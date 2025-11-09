@@ -31,12 +31,12 @@ ul {
 
 /* link*/
 a:link {
-  color: white;
+  color: LawnGreen;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: MediumSpringGreen;
 }
 
 /* mouse over link */
