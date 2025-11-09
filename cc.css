@@ -1,0 +1,63 @@
+/* no scrollbar*/
+html, body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE und Edge */
+}
+
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* body */
+body {
+  background: #033;
+  color: #fff;
+  padding: 25px;
+  font-family: "Lucida Console", "Courier New", "monospace";
+}
+
+/* List */
+ul {
+  color: orange;
+}
+
+/* link*/
+a:link {
+  color: LawnGreen;
+}
+
+/* plain link */
+.plain-link {
+  color: inherit;          /* gleiche Textfarbe wie der umgebende Text */
+  text-decoration: none;   /* entfernt die Unterstreichung */
+  cursor: pointer;         /* zeigt trotzdem die Hand beim Darüberfahren */
+}
+
+/* visited link */
+a:visited {
+  color: MediumSpringGreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: LawnGreen;
+}
+
+.fullstack {
+  color: orange;
+}
+
+.codecademy a {
+  color: white;
+  text-decoration: none;
+}
+
+.codecademy a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.watchmaker {
+  color: orange;
+}
