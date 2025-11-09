@@ -185,3 +185,8 @@ a:visited {
 a:hover {
   color: LawnGreen;
 }
+
+details {
+  color: DarkGreen;
+  opacity: 0.5;
+}
