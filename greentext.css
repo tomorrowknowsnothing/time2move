@@ -173,6 +173,9 @@ body {
       .panel{ order:1; min-height:360px }
     }
 
+h1 {
+  color: orange;
+}
 
 /* link*/
 a:link {
