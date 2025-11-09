@@ -61,3 +61,7 @@ a:hover {
 .watchmaker {
   color: orange;
 }
+
+.summary {
+  opacity: 0.5;
+}
