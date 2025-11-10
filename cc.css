@@ -61,3 +61,20 @@ a:hover {
 .toptier {
   color: coral;
 }
+
+#wrapper {
+	background-color: lightblue;
+	width: 501px;
+}
+
+#codecademy {
+	background-color: yellow;
+	width: 150px;
+	float:left;
+}
+
+#cisco {
+	background-color: green;
+	margin-left: 200px;
+	width: 300px;
+}
