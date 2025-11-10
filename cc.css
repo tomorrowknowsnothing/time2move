@@ -44,12 +44,12 @@ a:hover {
   color: Aquamarine;
 }
 
-.codecademy a {
+.hiddenlink a {
   color: white;
   text-decoration: none;
 }
 
-.codecademy a:hover {
+.hiddenlink a:hover {
   text-decoration: underline;
   color: Aquamarine;
 }
